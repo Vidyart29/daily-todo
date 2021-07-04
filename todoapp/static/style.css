@@ -1,0 +1,76 @@
+*{
+    padding: 0px;
+    margin:0px;
+    box-sizing: border-box;
+    font-family: Calibri;
+}
+body{
+    background-color: rgb(110, 110, 110);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#container{
+    background-color:rgba(180, 187, 190, 0.514); 
+    height: 400px;
+    width: 350px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    
+}
+#heading{
+    color:bisque;
+}
+#todoField{
+    width: 200px;
+    height: 40px;
+    border: 2px solid rgb(89, 89, 235);
+    border-radius: 5px;
+    padding-left: 10px;
+}
+#add{
+    width: 50px;
+    height: 40px;
+    background-color: rgb(41, 41, 255);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#todoItems{
+    width: 280px;
+    height: 250px;
+    /* border: 2px solid blue; */
+    overflow: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.item{
+    width: 250px;
+    height: 50px;
+    /* background-color: white; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.edit, .delete{
+    height: 35px;
+    width:60px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.edit{
+    background-color: green;
+}
+.delete{
+    background-color: red;
+}
